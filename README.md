@@ -22,3 +22,6 @@ Validation data was used from example images
 ## Inference Optimization
 To reduce time of model inference was used topology of efficientnet model with higly reduced number of filters in each layer
 MTCNN was used as face detector
+
+## Model Space
+It took about 4mb but in it because of format it could easier takes less then 1mb (Use float16 or int8 instead of float32, also as we assume that model for mobile devices usualy converting model to onnx or coreml reduce it size, proof also provided at model.onnx)
