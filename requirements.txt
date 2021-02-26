@@ -1,0 +1,7 @@
+numpy==1.19.4
+opencv-python==3.4.8.29
+torch==1.7.0
+facenet-pytorch
+pandas
+tensorboardX
+scipy

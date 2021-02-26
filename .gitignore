@@ -1,0 +1,11 @@
+*.jpg
+*.png
+*.csv
+
+*.pth
+
+logs
+
+__pycache__
+
+test.py
