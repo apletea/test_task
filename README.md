@@ -9,6 +9,7 @@ All code tested on python3.8
    
 ## Datasets
 Trainig data was used from https://www.kaggle.com/jeffheaton/glasses-or-no-glasses
+
 Validation data was used from example images
     
 ## Metrcis
