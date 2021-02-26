@@ -5,3 +5,5 @@ facenet-pytorch
 pandas
 tensorboardX
 scipy
+scikit-learn
+matplotlib

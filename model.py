@@ -147,7 +147,7 @@ def efficientnet_params(model_name):
     params_dict = {
         # Coefficients:   width,depth,res,dropout
         'efficientnet-b0': (0.4, 0.4, 256, 0.2),
-        'efficientnet-b1': (0.3, 0.3, 96, 0.2),
+        'efficientnet-b1': (0.1, 0.1, 96, 0.2),
         'efficientnet-b2': (0.4, 1.0, 224, 0.3),
         'efficientnet-b3': (0.32, 1.0, 224, 0.2),
         'efficientnet-b4': (0.4, 2.0, 224, 0.4),
@@ -540,3 +540,8 @@ class EfficientNetBase(nn.Module):
         x = self.logit(x)
         x = self.activation(x)
         return x
+
+if __name__ == "__main__":
+    model = EfficientNetBase()
+    from torchsummary import summary
+    summary(model.cuda(), (3, 96, 96))
