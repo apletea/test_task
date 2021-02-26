@@ -16,7 +16,7 @@ batch_size = 64
 workers = 8
 
 weights = 'epoch_6_glass.pth'
-conf_th = 0.5
+conf_th = 0.85
 
 if __name__ == "__main__":
     assert(len(sys.argv) >= 2)
