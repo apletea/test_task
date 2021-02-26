@@ -17,3 +17,8 @@ Validation data was used from example images
     <img src="precision_recall_curve.png", width="480">
     <img src="accuracy.png", width="480">
 </p>
+
+
+## Inference Optimization
+To reduce time of model inference was used topology of efficientnet model with higly reduced number of filters in each layer
+MTCNN was used as face detector
