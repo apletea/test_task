@@ -6,6 +6,10 @@ All code tested on python3.8
 ## Run Linux
     sudo pip3 install -r requirements.txt
     python3 main.py $folder_with_img
+   
+## Datasets
+Trainig data was used from https://www.kaggle.com/jeffheaton/glasses-or-no-glasses
+Validation data was used from example images
     
 ## Metrcis
 <p align="center">
